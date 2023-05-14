@@ -13,18 +13,40 @@ class HomePage extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Row(
-            children: [
-              ElevatedButton(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.red,
-                  foregroundColor: Colors.white,
-                  shape: const StarBorder(),
+          Padding(
+            padding: const EdgeInsets.all(10.0),
+            child: Wrap(
+              spacing: 20,
+              children: [
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.red,
+                    shape: const StadiumBorder(),
+                  ),
+                  child: const Text("Money"),
                 ),
-                child: const Text("Money"),
-              ),
-            ],
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.red,
+                    shape: const StadiumBorder(),
+                  ),
+                  child: const Text("Money Chaser"),
+                ),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.red,
+                    shape: const StadiumBorder(),
+                  ),
+                  child: const Text("How to Make Money online"),
+                ),
+              ],
+            ),
           )
         ],
       ),
