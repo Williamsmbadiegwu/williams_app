@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:williams_app/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false ,
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -44,14 +45,36 @@ class LoginPage extends StatelessWidget {
             height: 20.0,
           ),
           const Text('Welcome'),
+          //  Image.network(
+          //  "https://parade.com/.image/t_share/MTkwNTgwOTUyNjU2Mzg5MjQ1///albert-einstein-quotes-jpg.jpg"),
           const Text('Welcome',
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 55.00,
                   fontWeight: FontWeight.bold)),
           ElevatedButton(
-            onPressed: () {},
+            style: ElevatedButton.styleFrom(
+                minimumSize: const Size(300, 40),
+                backgroundColor: Colors.white,
+                foregroundColor: Colors.red),
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) {
+                    return const HomePage();
+                  },
+                ),
+              );
+            },
             child: const Text("Login"),
+          ),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                minimumSize: const Size(300, 40),
+                backgroundColor: Colors.white,
+                foregroundColor: Colors.blue),
+            onPressed: () {},
+            child: const Text("Register"),
           )
         ],
       )),
