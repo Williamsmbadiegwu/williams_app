@@ -25,6 +25,51 @@ class HomePage extends StatelessWidget {
                     foregroundColor: Colors.red,
                     shape: const StadiumBorder(),
                   ),
+                  child: const Text("How to make Money online"),
+                ),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.red,
+                    shape: const StadiumBorder(),
+                  ),
+                  child: const Text("Stocks"),
+                ),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.red,
+                    shape: const StadiumBorder(),
+                  ),
+                  child: const Text("Real Estate"),
+                ),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.red,
+                    shape: const StadiumBorder(),
+                  ),
+                  child: const Text("Bond"),
+                ),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.red,
+                    shape: const StadiumBorder(),
+                  ),
+                  child: const Text("Diamond"),
+                ),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.red,
+                    shape: const StadiumBorder(),
+                  ),
                   child: const Text("Money"),
                 ),
                 ElevatedButton(
@@ -34,16 +79,7 @@ class HomePage extends StatelessWidget {
                     foregroundColor: Colors.red,
                     shape: const StadiumBorder(),
                   ),
-                  child: const Text("Money Chaser"),
-                ),
-                ElevatedButton(
-                  onPressed: () {},
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.red,
-                    shape: const StadiumBorder(),
-                  ),
-                  child: const Text("How to Make Money online"),
+                  child: const Text("Crypto Currency"),
                 ),
               ],
             ),
